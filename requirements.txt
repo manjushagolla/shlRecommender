@@ -6,7 +6,8 @@ uvicorn[standard]==0.29.0
 anthropic==0.28.0
 
 # Vector search
-faiss-cpu==1.8.0
+
+faiss-cpu>=1.12.0
 sentence-transformers==3.0.0
 
 # Scraping
