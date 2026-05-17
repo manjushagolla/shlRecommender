@@ -1,0 +1,10 @@
+.gitignore << 'EOF'
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+catalog/*.faiss
+catalog/embeddings.npy
+.DS_Store
+EOF

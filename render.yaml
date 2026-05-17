@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: shl-recommender
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    region: oregon
+
+    # Environment variables — set real values in Render dashboard
+    envVars:
+      - key: LLM_PROVIDER
+        value: groq
+      - key: CLAUDE_MODEL
+        value: llama-3.3-70b-versatile
+      - key: EMBED_MODEL
+        value: all-MiniLM-L6-v2
+      - key: GROQ_API_KEY
+        sync: false          # set this in Render dashboard (secret)
+
+    healthCheckPath: /health
+    numInstances: 1

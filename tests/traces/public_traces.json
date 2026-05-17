@@ -1,0 +1,196 @@
+[
+  {
+    "id": "trace_01",
+    "persona": "Sarah, a tech recruiter hiring a mid-level Java backend developer with 4 years experience who collaborates with stakeholders",
+    "facts": {
+      "role": "Java Backend Developer",
+      "seniority": "Mid-level, 4 years experience",
+      "skills_to_measure": ["Java knowledge", "stakeholder communication", "personality"],
+      "industry": "Technology",
+      "remote": true
+    },
+    "opening": "I am hiring a Java developer who works with stakeholders",
+    "expected_assessments": [
+      "Core Java (Advanced Level) (New)",
+      "Java 8 (New)",
+      "Spring (New)",
+      "OPQ32r",
+      "Verify - Verbal Reasoning"
+    ],
+    "expected_test_types": ["K", "P", "A"]
+  },
+  {
+    "id": "trace_02",
+    "persona": "James, an HR manager at a bank hiring graduate trainees for a rotational program",
+    "facts": {
+      "role": "Graduate Trainee",
+      "seniority": "Graduate, entry level",
+      "skills_to_measure": ["cognitive ability", "numerical reasoning", "personality", "situational judgment"],
+      "industry": "Banking / Finance",
+      "volume": "high volume hiring"
+    },
+    "opening": "We are running a graduate recruitment campaign for our bank",
+    "expected_assessments": [
+      "Verify - Numerical Reasoning",
+      "Verify - Verbal Reasoning",
+      "OPQ32r",
+      "Graduate 8.0 SJT",
+      "Verify - Inductive Reasoning",
+      "General Banking & Finance"
+    ],
+    "expected_test_types": ["A", "P", "B", "K"]
+  },
+  {
+    "id": "trace_03",
+    "persona": "Priya, a talent manager hiring call center agents for a BPO at entry level",
+    "facts": {
+      "role": "Call Center Agent",
+      "seniority": "Entry level",
+      "skills_to_measure": ["customer service attitude", "personality", "multitasking"],
+      "industry": "BPO / Customer Service",
+      "volume": "high volume"
+    },
+    "opening": "I need assessments for call center agents, entry level, high volume hiring",
+    "expected_assessments": [
+      "Customer Contact - Motive & Preference Questionnaire (CCMPQ)",
+      "Call Center Simulation",
+      "Contact Center Situational Judgement Test",
+      "Verify - Numerical Reasoning",
+      "Checking"
+    ],
+    "expected_test_types": ["P", "S", "B", "A"]
+  },
+  {
+    "id": "trace_04",
+    "persona": "David, a CHRO hiring a senior data scientist with ML expertise",
+    "facts": {
+      "role": "Senior Data Scientist",
+      "seniority": "Senior, 6+ years",
+      "skills_to_measure": ["Python", "machine learning", "statistics", "problem solving"],
+      "industry": "Technology / AI"
+    },
+    "opening": "Looking for assessments for a senior data scientist role focused on machine learning",
+    "expected_assessments": [
+      "Python (New)",
+      "Data Science (New)",
+      "Machine Learning (New)",
+      "Verify - Numerical Reasoning",
+      "Verify - Inductive Reasoning"
+    ],
+    "expected_test_types": ["K", "A"]
+  },
+  {
+    "id": "trace_05",
+    "persona": "Anita, an HR director hiring a sales manager for B2B enterprise software",
+    "facts": {
+      "role": "B2B Sales Manager",
+      "seniority": "Manager, 5+ years",
+      "skills_to_measure": ["sales ability", "personality", "leadership", "verbal reasoning"],
+      "industry": "Enterprise Software / SaaS"
+    },
+    "opening": "We need to hire a sales manager for our enterprise software division",
+    "expected_assessments": [
+      "General Sales Ability (GSA)",
+      "OPQ32r",
+      "Sales Preference Questionnaire (SPQ)",
+      "Verify - Verbal Reasoning",
+      "Managerial & Professional Learning Ability"
+    ],
+    "expected_test_types": ["A", "P", "B"]
+  },
+  {
+    "id": "trace_06",
+    "persona": "Marcus, a factory HR manager hiring machine operators and maintenance staff",
+    "facts": {
+      "role": "Machine Operator / Maintenance Technician",
+      "seniority": "Entry level to mid",
+      "skills_to_measure": ["mechanical ability", "safety awareness", "reliability"],
+      "industry": "Manufacturing / Industrial"
+    },
+    "opening": "I am hiring for a manufacturing plant, machine operators and maintenance roles",
+    "expected_assessments": [
+      "Mechanical Comprehension Test (MCT)",
+      "Dependability & Safety Instrument (DSI)",
+      "Workplace Safety - Individual 7.1 (Americas)",
+      "Numerical Ability - Basic",
+      "Attention to Detail"
+    ],
+    "expected_test_types": ["A", "P", "B"]
+  },
+  {
+    "id": "trace_07",
+    "persona": "Lisa, recruiting for a senior frontend developer specialising in React",
+    "facts": {
+      "role": "Senior Frontend Developer",
+      "seniority": "Senior, 5 years",
+      "skills_to_measure": ["React", "JavaScript", "HTML/CSS", "problem solving"],
+      "industry": "Technology"
+    },
+    "opening": "Here is a job description: Senior Frontend Engineer with 5 years React experience, strong JavaScript, collaborates with design teams",
+    "expected_assessments": [
+      "React (New)",
+      "JavaScript (New)",
+      "HTML/CSS (New)",
+      "Automata - Fix (Coding Simulation)",
+      "Verify - Inductive Reasoning"
+    ],
+    "expected_test_types": ["K", "S", "A"]
+  },
+  {
+    "id": "trace_08",
+    "persona": "Tom, an HR business partner hiring middle managers for a retail chain",
+    "facts": {
+      "role": "Retail Store Manager",
+      "seniority": "Manager / Supervisor",
+      "skills_to_measure": ["leadership", "personality", "situational judgment", "numerical"],
+      "industry": "Retail"
+    },
+    "opening": "We need to assess candidates for retail store manager positions across our chain",
+    "expected_assessments": [
+      "OPQ32r",
+      "Situational Judgement Test (SJT) for Managers",
+      "Retail Management Assessment",
+      "Verify - Numerical Reasoning",
+      "Supervisory Skills"
+    ],
+    "expected_test_types": ["P", "B", "A", "K"]
+  },
+  {
+    "id": "trace_09",
+    "persona": "Nina, a talent acquisition lead at a hospital hiring nursing staff",
+    "facts": {
+      "role": "Registered Nurse",
+      "seniority": "Mid-professional",
+      "skills_to_measure": ["clinical judgment", "personality", "verbal ability", "attention to detail"],
+      "industry": "Healthcare"
+    },
+    "opening": "I am recruiting registered nurses for a large hospital system",
+    "expected_assessments": [
+      "Healthcare Professional SJT",
+      "OPQ32r",
+      "Verify - Verbal Reasoning",
+      "Attention to Detail",
+      "Conscientiousness Scale"
+    ],
+    "expected_test_types": ["B", "P", "A"]
+  },
+  {
+    "id": "trace_10",
+    "persona": "Alex, a DevOps engineer turned recruiter hiring cloud infrastructure engineers",
+    "facts": {
+      "role": "Cloud Infrastructure / DevOps Engineer",
+      "seniority": "Mid to senior",
+      "skills_to_measure": ["AWS", "DevOps", "SQL", "problem solving", "cognitive ability"],
+      "industry": "Cloud / Infrastructure"
+    },
+    "opening": "Hiring a DevOps engineer who will manage AWS infrastructure and CI/CD pipelines",
+    "expected_assessments": [
+      "AWS (New)",
+      "DevOps (New)",
+      "SQL (New)",
+      "Verify - Inductive Reasoning",
+      "Automata - Fix (Coding Simulation)"
+    ],
+    "expected_test_types": ["K", "A", "S"]
+  }
+]
